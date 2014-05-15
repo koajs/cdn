@@ -2,6 +2,9 @@
   "name": "koa-cdn",
   "description": "middleware for a koa-based CDN",
   "version": "1.0.0",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/mocha/bin/mocha --harmony-generators --require should --reporter spec --bail"
+  },
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -9,5 +12,12 @@
     "twitter": "https://twitter.com/jongleberry"
   },
   "license": "MIT",
-  "repository": "koajs/cdn"
+  "repository": "koajs/cdn",
+  "devDependencies": {
+    "koa": "^0.6.1",
+    "koa-sendfile": "^1.0.1",
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  }
 }

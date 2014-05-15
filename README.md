@@ -3,6 +3,22 @@
 
 Middleware for a GET-only server, specifically for CDNs.
 
+## Installation
+
+```bash
+$ npm install koa-cdn
+```
+
+## Example
+
+```js
+var cdn = require('koa-cdn')
+var koa = require('koa')
+var app = koa()
+
+app.use(cdn())
+```
+
 ## License
 
 (The MIT License)
