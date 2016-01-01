@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": "koajs/cdn",
   "devDependencies": {
-    "koa": "^0.6.1",
+    "koa": "^1.1.2",
     "koa-sendfile": "^1.0.1",
     "mocha": "*",
     "should": "*",
