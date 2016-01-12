@@ -17,7 +17,7 @@
     "koa": "^0.6.1",
     "koa-sendfile": "^1.0.1",
     "mocha": "*",
-    "should": "*",
+    "should": "8.1.0",
     "supertest": "*"
   }
 }
